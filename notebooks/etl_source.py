@@ -67,7 +67,7 @@ display(html_binary_spark_df)
 import re
 import html2text
 from pyspark.sql.functions import udf, col
-from pyspark.sql.types import StringType, IntegerType
+from pyspark.sql.types import StringType
 
 AUTHORS_REGEX_PATTERN = re.compile(r"Created\sby.*last\smodified.*[A-Z][a-z]{2}\s\d{2}\,\s\d{4}")
 
